@@ -1,0 +1,42 @@
+#home {
+    color: beige;
+    background-color: green;
+    text-align: center;
+    font-size: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+div a, li, ol, ul{
+    font-size: 26px;
+    background-color: firebrick;
+    color: beige;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    background-color: chocolate;
+    color: beige;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+h3, h1 {
+    text-align: center;
+}
+
+h1 {
+    background-color: green;
+    color: beige;
+}
+
+p {
+    text-align: center;
+}
