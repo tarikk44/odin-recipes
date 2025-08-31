@@ -1,42 +1,178 @@
-#home {
-    color: beige;
-    background-color: green;
-    text-align: center;
-    font-size: 45px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-div a, li, ol, ul{
-    font-size: 26px;
-    background-color: firebrick;
-    color: beige;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-h2 {
-    background-color: chocolate;
-    color: beige;
+body {
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(248, 204, 6);
+}
+
+.home-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgb(148, 107, 19);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 img {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
+    border-radius: 12px;
+    image-rendering: auto;
+    margin: 10px;
+    width: 350px;
+    height: auto;
+
 }
 
-h3, h1 {
-    text-align: center;
+@font-face {
+    font-family: "Messy Handwritten";
+    src: url("../fonts/MessyHandwritten-Regular.ttf") format("truetype");
+
 }
 
-h1 {
-    background-color: green;
+.welcome {
+    font-family: "Messy Handwritten", sans-serif;
+    font-size: 50px;
+    margin: 1px;
+}
+
+.notebook {
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    margin: 10px auto;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    font-family: "Messy Handwritten";
+    overflow: auto;
+    border-radius: 6px;
+    background-image: repeating-linear-gradient(to bottom, transparent, transparent 48px, #d3d3d3 48px, #d3d3d3 50px);
+    font-size: 50px;
+}
+
+.notebook a {
+    text-decoration: none;
+}
+
+.notebook ul {
+    list-style-type: none;
+}
+
+
+#home {
+    font-size: 44px;
+    background-color: rgb(126, 5, 1);
     color: beige;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
 }
 
-p {
-    text-align: center;
+h2 {
+    color: rgb(1, 2, 46);
 }
+
+ol {
+    color: rgb(1, 2, 46);
+}
+
+.p1 {
+    
+}
+
+.tresleches {
+    color: rgb(148, 107, 19);
+}
+
+.recipe1 {    
+    position: relative;
+    width: 95%;
+    max-width: 1200px;
+    min-height: 80vh;
+    margin: 20px auto;
+    padding: 30px 40px;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: #fffdf0;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    font-family: "Messy Handwritten", cursive, sans-serif;
+    background-image: repeating-linear-gradient(to bottom,
+    transparent, transparent 70px, #d3d3d3 70px, #d3d3d3 72px); overflow: auto;
+    font-size: 30px;
+    color: rgb(148, 107, 19);
+    text-align: left;
+}
+
+.recipe2 {
+    position: relative;
+    width: 95%;
+    max-width: 1200px;
+    min-height: 80vh;
+    margin: 20px auto;
+    padding: 30px 40px;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: #fffdf0;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    font-family: "Messy Handwritten", cursive, sans-serif;
+    background-image: repeating-linear-gradient(to bottom,
+    transparent, transparent 70px, #d3d3d3 70px, #d3d3d3 72px);
+    overflow: auto;
+    font-size: 30px;
+    color: rgb(184, 76, 76);
+    text-align: left;
+}
+
+.recipe3 {
+    position: relative;
+    width: 95%;
+    max-width: 1200px;
+    min-height: 80vh;
+    margin: 20px auto;
+    padding: 30px 40px;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: #fffdf0;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    font-family: "Messy Handwritten", cursive, sans-serif;
+    background-image: repeating-linear-gradient(to bottom,
+    transparent, transparent 70px, #d3d3d3 70px, #d3d3d3 72px);
+    overflow: auto;
+    font-size: 30px;
+    color: rgb(247, 135, 8);
+    text-align: left;
+}
+
+.tl-ingredients {
+    color: rgb(1, 2, 46);
+}
+
+.mls-ingredients {
+    color: rgb(1, 2, 46);
+}
+
+.cb-ingredients, li {
+    color: rgb(1, 2, 46);
+}
+
+.steak {
+    color: rgb(184, 76, 76);
+}
+
+.cordonbleu {
+    color: rgb(247, 135, 8);
+}
+
